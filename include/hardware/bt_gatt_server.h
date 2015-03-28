@@ -136,7 +136,6 @@ typedef struct {
     response_confirmation_callback  response_confirmation_cb;
     indication_sent_callback        indication_sent_cb;
     congestion_callback             congestion_cb;
-    mtu_changed_callback            mtu_changed_cb;
 } btgatt_server_callbacks_t;
 
 /** Represents the standard BT-GATT server interface. */
