@@ -129,7 +129,8 @@ enum {
 
     /* this layer will be handled in the HWC, using a blit engine */
     HWC_BLIT = 6,
- };
+};
+
 /*
  * hwc_layer_t::blending values
  */
